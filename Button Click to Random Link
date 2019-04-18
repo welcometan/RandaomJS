@@ -1,0 +1,15 @@
+<script>
+function random_2(){
+    var myrandom=Math.round(Math.random()*1)
+    var link1="https://google.com"
+    var link2="https://github.com"
+    if (myrandom==0)
+        window.location=link1
+    else if (myrandom==1)
+        window.location=link2
+}
+</script>
+
+<button onClick="random_2()">
+  Click Me
+</button>
